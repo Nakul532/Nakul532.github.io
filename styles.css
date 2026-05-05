@@ -1514,7 +1514,7 @@ button { font-family: inherit; cursor: pointer; background: none; border: none; 
   text-transform: uppercase;
   color: var(--ink-4);
 }
-.modal-quote .attr::before { content: '— '; }
+.modal-quote .attr::before { content: ''; }
 
 /* gallery */
 .modal-gallery {

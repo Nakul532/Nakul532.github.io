@@ -1,5 +1,5 @@
 /* ==========================================================
-   Nakul Karthikeyan — Portfolio v3
+   Nakul Karthikeyan. Portfolio v3
    Editorial · Field Notes
    ========================================================== */
 
@@ -321,10 +321,10 @@ const EXPERIENCE = [
     date: 'Jul 2024 – May 2025',
     hint: 'Ran day-to-day operations for one of the biggest athletics programs in the CAA conference.',
     bullets: [
-      'Orchestrated 50+ weekly initiatives across athletics, facilities, and security — eliminating 25% of scheduling conflicts through structured Excel trackers and standardized workflows.',
+      'Orchestrated 50+ weekly initiatives across athletics, facilities, and security, eliminating 25% of scheduling conflicts through structured Excel trackers and standardized workflows.',
       'Slashed event turnaround from 3–4 hours to 2 hours by redesigning setup/teardown sequences and building proactive risk-mitigation checklists.',
       'Engineered KPI dashboards and Excel performance reports that gave supervisors real-time visibility into service metrics and staffing efficiency.',
-      'Authored and standardized SOPs, safety protocols, and onboarding documentation — cutting new-hire ramp-up time by 30%.',
+      'Authored and standardized SOPs, safety protocols, and onboarding documentation, cutting new-hire ramp-up time by 30%.',
       'Supported a 5–7-member cross-functional ops team, building the data infrastructure that enabled evidence-based resource allocation.'
     ],
     metrics: [
@@ -337,11 +337,11 @@ const EXPERIENCE = [
     role: 'Game Development Intern (Agile)',
     co: 'Being Digital · Mumbai',
     date: 'May – Jun 2022',
-    hint: 'Shipped "The Hopper" — a Unity mobile game — in a tight 6-week sprint cycle.',
+    hint: 'Shipped "The Hopper", a Unity mobile game, in a tight 6-week sprint cycle.',
     bullets: [
       'Drove Agile execution for a cloud-backed Unity app alongside a 6-member cross-functional squad (engineering, design, QA).',
       'Owned and refined 20+ Jira user stories, tracking sprint velocity, resolving dependencies, and driving a 35% reduction in open defects.',
-      'Authored functional requirements and acceptance criteria in Confluence — reducing clarification cycles by 40% and eliminating rework loops.',
+      'Authored functional requirements and acceptance criteria in Confluence, reducing clarification cycles by 40% and eliminating rework loops.',
       'Coordinated user testing cycles across Android builds, triaging and prioritizing defects to ensure release-ready quality.'
     ],
     metrics: [
@@ -358,7 +358,7 @@ const EXPERIENCE = [
     bullets: [
       'Directed a 40+ item/month content pipeline, prioritizing deliverables against business requirements and product roadmap milestones.',
       'Engineered a Kanban workflow system (Jira/Trello) that compressed average cycle time by 20–25% and improved cross-team visibility.',
-      'Partnered with Product, Marketing, and Design to analyze engagement metrics — delivering optimizations that boosted page engagement by 30%.',
+      'Partnered with Product, Marketing, and Design to analyze engagement metrics, delivering optimizations that boosted page engagement by 30%.',
       'Benchmarked 5+ fintech competitors, translating findings into standardized governance frameworks and scalable content templates.',
       'Crafted 20+ biweekly articles, maintaining editorial quality standards that drove measurable app engagement increases.'
     ],
@@ -414,40 +414,40 @@ const EXPERIENCE = [
 })();
 
 /* ============================================================
-   9.  PROJECTS — data + grid + modal
+   9.  PROJECTS, data + grid + modal
    ============================================================ */
 const PROJECTS = [
   {
     id: 'spotify',
     cat: 'Product Strategy · Concept Proposal',
-    title: 'Spotify Walk — Borrow Musical Identities',
-    short: 'A new Spotify feature that lets you temporarily borrow someone\'s musical identity — friend, stranger, or icon — for a day, hour, or week.',
+    title: 'Spotify Walk. Borrow Musical Identities',
+    short: 'A new Spotify feature that lets you temporarily borrow someone\'s musical identity, friend, stranger, or icon, for a day, hour, or week.',
     role: 'Co-author w/ Surendra Polepalli',
     notion: 'https://coal-track-d54.notion.site/Spotify-Walk-32e4ac9c56c28079962ae754830e5366',
-    quote: { text: 'You are not asking for a playlist. You are asking to hear the world the way that person hears it — their taste, their instincts, their entire musical soul.', attr: 'From the Walk product brief' },
-    problem: 'Spotify knows when, why, and how your mood shifts through the day — but keeps that intelligence locked away. Music discovery is quietly breaking: the algorithm becomes a mirror, not a window.',
+    quote: { text: 'You are not asking for a playlist. You are asking to hear the world the way that person hears it, their taste, their instincts, their entire musical soul.', attr: 'From the Walk product brief' },
+    problem: 'Spotify knows when, why, and how your mood shifts through the day, but keeps that intelligence locked away. Music discovery is quietly breaking: the algorithm becomes a mirror, not a window.',
     approach: 'Designed a five-step Walk loop (Moment → Handshake → Experience → Memory → Social graph) anchored on a privacy-safe model that lets users temporarily borrow another listener\'s taste profile without sharing any personal data.',
     outcome: '$150M Year 1 revenue at conservative 5% Walk+ adoption · $3B+ ceiling at 10% adoption with multiple personas per user · a new fan-artist relationship Spotify alone can build.',
     gallery: [
       { src: 'images/spotify/walk-01.png', cap: 'Cover · Spotify Walk product brief' },
-      { src: 'images/spotify/walk-02.png', cap: '01 · The problem — taste bubble, locked identities, regional blindness' },
-      { src: 'images/spotify/walk-03.png', cap: '02 · The insight — music has always been borrowed' },
-      { src: 'images/spotify/walk-04.png', cap: '03 · The product — five-step Walk loop' },
-      { src: 'images/spotify/walk-05.png', cap: '04 · Premium — Celebrity Walk' },
-      { src: 'images/spotify/walk-06.png', cap: 'Persona Store — individual celebrity passes' },
-      { src: 'images/spotify/walk-07.png', cap: '05 · App mockup — Walk lives next to Home' },
+      { src: 'images/spotify/walk-02.png', cap: '01 · The problem, taste bubble, locked identities, regional blindness' },
+      { src: 'images/spotify/walk-03.png', cap: '02 · The insight, music has always been borrowed' },
+      { src: 'images/spotify/walk-04.png', cap: '03 · The product, five-step Walk loop' },
+      { src: 'images/spotify/walk-05.png', cap: '04 · Premium. Celebrity Walk' },
+      { src: 'images/spotify/walk-06.png', cap: 'Persona Store, individual celebrity passes' },
+      { src: 'images/spotify/walk-07.png', cap: '05 · App mockup. Walk lives next to Home' },
       { src: 'images/spotify/walk-08.png', cap: '05B · Persona detail screen' },
       { src: 'images/spotify/walk-09.png', cap: '05C · Active walk session' },
-      { src: 'images/spotify/walk-10.png', cap: '06 · The opportunity — by the numbers' }
+      { src: 'images/spotify/walk-10.png', cap: '06 · The opportunity, by the numbers' }
     ],
-    desc: 'Spotify knows your musical soul — when, why, and how your mood shifts through the day — but keeps it locked away. Meanwhile, music discovery is quietly breaking: the algorithm becomes a mirror, not a window. Walk reframes the problem: music has always been borrowed (the song in someone\'s car, at a café, in a gym), and Spotify has never built for that moment. Walk lets you temporarily borrow another user\'s taste profile, listening patterns, and algorithmic fingerprint. The premium layer — Celebrity Walk — partners with artists to package their listening identity as an experience fans can borrow (Listen like Kendrick today; Walk in Taylor\'s pre-Eras Tour world). Built around five UX moments: the request, the handshake, the experience, the memory, and the social graph.',
+    desc: 'Spotify knows your musical soul, when, why, and how your mood shifts through the day, but keeps it locked away. Meanwhile, music discovery is quietly breaking: the algorithm becomes a mirror, not a window. Walk reframes the problem: music has always been borrowed (the song in someone\'s car, at a café, in a gym), and Spotify has never built for that moment. Walk lets you temporarily borrow another user\'s taste profile, listening patterns, and algorithmic fingerprint. The premium layer. Celebrity Walk, partners with artists to package their listening identity as an experience fans can borrow (Listen like Kendrick today; Walk in Taylor\'s pre-Eras Tour world). Built around five UX moments: the request, the handshake, the experience, the memory, and the social graph.',
     bullets: [
       'Diagnosed three core failures: the taste bubble, locked identities, and regional blindness in fast-growing markets like India, Brazil, and Indonesia.',
-      'Designed the five-step Walk loop — Moment → Handshake → Experience → Memory → Social graph — anchored on a privacy-safe identity model that never shares personal data.',
-      'Architected a premium layer ("Walk+") with celebrity persona drops at $4.99/yr — Taylor Swift, Kendrick Lamar, Bad Bunny, AR Rahman — converting fandom into recurring revenue.',
+      'Designed the five-step Walk loop. Moment → Handshake → Experience → Memory → Social graph, anchored on a privacy-safe identity model that never shares personal data.',
+      'Architected a premium layer ("Walk+") with celebrity persona drops at $4.99/yr. Taylor Swift, Kendrick Lamar, Bad Bunny, AR Rahman, converting fandom into recurring revenue.',
       'Built the natural conversion funnel: free Walk with a friend → browse Persona Store → buy a single celebrity persona → upgrade to Walk+ at $17/mo for unlimited access.',
       'Designed three iOS mockup screens: the Walk tab as first-class navigation, the persona detail view (musical stats, genres bridged, avg energy), and the active walk session with live equaliser bars and auto-saved "Heard through their ears" playlists.',
-      'Modeled the moat: 18 years of taste data, 600M+ active profiles, global artist relationships, taste-modeling AI, proven social features (Blend), and global catalog — assets only Spotify holds.',
+      'Modeled the moat: 18 years of taste data, 600M+ active profiles, global artist relationships, taste-modeling AI, proven social features (Blend), and global catalog, assets only Spotify holds.',
       'Projected the opportunity: 600M Spotify users today, 5% conservative upgrade to Walk+, $150M Year 1 revenue (conservative), $3B+ at 10% adoption with multiple personas per user.'
     ],
     metrics: [
@@ -467,15 +467,15 @@ const PROJECTS = [
     notion: 'https://coal-track-d54.notion.site/How-IXL-Should-Defend-Against-the-Free-AI-Tutor-Wave-3564ac9c56c280a4879ff0e0fc2e565a',
     quote: { text: '"Free" isn\'t free if it can\'t pass a district budget meeting.', attr: 'IXL strategy memo · core insight' },
     problem: 'Free LLM tutors (ChatGPT, Khanmigo, Gemini) are rewriting the unit economics of K-12 supplementary learning. IXL\'s 75M+ user base is not the moat people think it is.',
-    approach: 'Mapped where IXL\'s structural advantages actually live — curriculum coverage, district trust, longitudinal student data — vs. where the AI wave commoditizes its core (Q&A, on-demand explanations).',
+    approach: 'Mapped where IXL\'s structural advantages actually live, curriculum coverage, district trust, longitudinal student data, vs. where the AI wave commoditizes its core (Q&A, on-demand explanations).',
     outcome: 'A three-move defensive playbook: (1) reposition as system of record, (2) compete on outcomes data districts can defend, (3) embed IXL as the AI tutors\' source of truth.',
-    desc: 'Free AI tutors — ChatGPT, Khanmigo, Gemini — are rewriting the unit economics of K-12 supplementary learning. IXL\'s 75M+ user base is not the moat people think it is. This memo lays out the defensive playbook: where IXL\'s structural advantages actually live (curriculum coverage, district trust, teacher workflows, longitudinal student data), where the AI wave commoditizes its core (instant Q&A, on-demand explanations), and the three strategic moves required: (1) reposition from "practice platform" to "diagnostic + adaptive system of record" that AI tutors plug into rather than replace, (2) compete on outcomes data districts can defend in budget meetings, and (3) embed IXL as the AI tutors\' source of truth — making competitors do IXL\'s top-of-funnel for free.',
+    desc: 'Free AI tutors. ChatGPT, Khanmigo, Gemini, are rewriting the unit economics of K-12 supplementary learning. IXL\'s 75M+ user base is not the moat people think it is. This memo lays out the defensive playbook: where IXL\'s structural advantages actually live (curriculum coverage, district trust, teacher workflows, longitudinal student data), where the AI wave commoditizes its core (instant Q&A, on-demand explanations), and the three strategic moves required: (1) reposition from "practice platform" to "diagnostic + adaptive system of record" that AI tutors plug into rather than replace, (2) compete on outcomes data districts can defend in budget meetings, and (3) embed IXL as the AI tutors\' source of truth, making competitors do IXL\'s top-of-funnel for free.',
     bullets: [
-      'Mapped the threat landscape: free LLM tutors vs. IXL\'s $9.95/mo SKU — and where the "free" framing breaks down (curriculum alignment, teacher accountability, district contracts).',
+      'Mapped the threat landscape: free LLM tutors vs. IXL\'s $9.95/mo SKU, and where the "free" framing breaks down (curriculum alignment, teacher accountability, district contracts).',
       'Identified three durable moats: 17+ years of standards-aligned content, district-level integrations, and longitudinal performance data per student.',
       'Diagnosed three commoditization vectors AI tutors win on: instant explanations, conversational hints, and zero-marginal-cost personalization.',
-      'Recommended product repositioning: shift from "where students practice" to "the system of record that proves what students learned" — a moat AI chat interfaces can\'t replicate.',
-      'Proposed an API/embedding strategy: license IXL\'s curriculum graph to Khanmigo, ChatGPT EDU, and tutoring agencies — turning competitors into distribution.',
+      'Recommended product repositioning: shift from "where students practice" to "the system of record that proves what students learned", a moat AI chat interfaces can\'t replicate.',
+      'Proposed an API/embedding strategy: license IXL\'s curriculum graph to Khanmigo, ChatGPT EDU, and tutoring agencies, turning competitors into distribution.',
       'Outlined a districts-first GTM defense: double down on superintendent-level outcomes reporting, where free AI tools have zero accountability story.',
       'Quantified the downside scenario: 30–40% practice-volume erosion if no action; flat-to-positive growth if IXL becomes the trusted measurement layer beneath the AI wave.'
     ],
@@ -495,17 +495,17 @@ const PROJECTS = [
     role: 'Growth Strategy Analyst',
     notion: 'https://www.notion.so/Building-Walmart-s-Next-Gen-Customer-Growth-Engine-3524ac9c56c280aaab11fbda3c4284a9',
     quote: { text: 'Don\'t beat Amazon on selection. Own the lowest-cost weekly habit in America and stack margin on top.', attr: 'Walmart growth memo · thesis' },
-    problem: 'Walmart serves 240M+ customers a week — yet its growth engine is still optimized for a pre-digital playbook. Amazon eats the affluent customer; TikTok Shop eats discovery; Costco eats trip frequency.',
+    problem: 'Walmart serves 240M+ customers a week, yet its growth engine is still optimized for a pre-digital playbook. Amazon eats the affluent customer; TikTok Shop eats discovery; Costco eats trip frequency.',
     approach: 'Three compounding loops: acquisition via Walmart+ at sub-Prime pricing, engagement via grocery as the daily wedge, and a moat built from 4,600-store last-mile + ad network + first-party data.',
-    outcome: 'Path to a $20B ad network, a financial-services wedge no bank wants, and AI-personalized weekly baskets — without chasing Amazon\'s SKU breadth.',
+    outcome: 'Path to a $20B ad network, a financial-services wedge no bank wants, and AI-personalized weekly baskets, without chasing Amazon\'s SKU breadth.',
     desc: 'Walmart serves 240M+ customers a week, yet its growth engine is still optimized for a pre-digital playbook. This memo lays out a next-generation customer growth blueprint structured around three loops: acquisition (turning Walmart+ into the default subscription for the working family, not the premium one), engagement (using grocery as the daily wedge to compound LTV across general merchandise, pharmacy, and financial services), and moat (data + last-mile + scale that Amazon can\'t copy fast and TikTok Shop can\'t copy at all). The proposal reframes Walmart\'s growth ceiling: not by chasing Amazon\'s SKU breadth, but by owning the lowest-cost weekly habit in America and stacking margin-rich services on top.',
     bullets: [
       'Reframed the growth question from "how do we beat Amazon on selection" to "how do we own the weekly habit of 80M working-class American households."',
       'Mapped three compounding loops: acquisition via Walmart+ at sub-Amazon-Prime pricing, engagement via grocery/refill cycle, moat via store density + ad network + first-party data.',
-      'Identified the underused asset: 4,600 stores within 10 miles of 90% of the US — a last-mile network that\'s 5x denser than Amazon\'s and impossible to replicate.',
-      'Recommended productizing the financial services wedge — Walmart Pay, MoneyCard, BNPL — as the second compounding loop after grocery, monetizing the working-family customer base no bank wants.',
+      'Identified the underused asset: 4,600 stores within 10 miles of 90% of the US, a last-mile network that\'s 5x denser than Amazon\'s and impossible to replicate.',
+      'Recommended productizing the financial services wedge. Walmart Pay, MoneyCard, BNPL, as the second compounding loop after grocery, monetizing the working-family customer base no bank wants.',
       'Modeled the ad network opportunity: $4B+ today, $20B+ trajectory if Walmart matches Amazon\'s ad-load on grocery + general merch SKUs.',
-      'Argued for AI-personalized weekly basket recommendations — using Walmart\'s scanner data, not third-party signals — as the highest-leverage product investment.',
+      'Argued for AI-personalized weekly basket recommendations, using Walmart\'s scanner data, not third-party signals, as the highest-leverage product investment.',
       'Laid out the 3-year sequencing: Year 1 fix Walmart+ value prop and pricing; Year 2 stack financial services; Year 3 launch the ad + AI-personalization layer at scale.'
     ],
     metrics: [
@@ -519,20 +519,20 @@ const PROJECTS = [
   {
     id: 'curio',
     cat: 'Lean Operations · Capstone',
-    title: 'Curio Coffee — Process Optimization',
+    title: 'Curio Coffee. Process Optimization',
     short: 'Mapped the entire order-to-delivery value stream, identified 6 bottleneck points, and unlocked $8.5K+ in annual savings.',
     role: 'Project Lead',
     quote: { text: 'We didn\'t add steps. We deleted the ones nobody noticed cost ninety seconds.', attr: 'Capstone retrospective' },
     problem: 'A real Boston coffee shop with inconsistent service times and rising costs during morning rush. Owners couldn\'t pinpoint where the lost minutes went.',
     approach: 'Physically timed every step from order to handoff during peak and off-peak hours. Built a value stream map. Redesigned around the 6 critical bottlenecks the data revealed.',
     outcome: '40% cycle-time reduction · $8.5K+ annual savings · 12 SOPs the owner still uses daily.',
-    desc: 'This wasn\'t a classroom exercise — it was a real coffee operation struggling with inconsistent service times and rising costs. I led the team through a full value stream analysis, physically timing every step from order to handoff. We found 6 critical bottlenecks, redesigned the workflow, and implemented KPI tracking that the owner still uses daily. The 40% cycle time reduction translated directly into faster service and happier customers during morning rush.',
+    desc: 'This wasn\'t a classroom exercise, it was a real coffee operation struggling with inconsistent service times and rising costs. I led the team through a full value stream analysis, physically timing every step from order to handoff. We found 6 critical bottlenecks, redesigned the workflow, and implemented KPI tracking that the owner still uses daily. The 40% cycle time reduction translated directly into faster service and happier customers during morning rush.',
     bullets: [
       'Mapped the complete order-to-delivery value stream by observing and timing every step during peak and off-peak hours.',
       'Identified 6 critical bottleneck points including grinder queue times, milk steaming overlap, and register handoff delays.',
       'Designed and deployed KPI dashboards in Excel tracking daily throughput, waste percentage, and average service time.',
       'Implemented inventory controls that reduced over-ordering by 22% within the first month of deployment.',
-      'Standardized 12 SOPs for barista workflows — from opening procedures to rush-hour line management.',
+      'Standardized 12 SOPs for barista workflows, from opening procedures to rush-hour line management.',
       'Presented findings and implementation plan to faculty panel as capstone deliverable.'
     ],
     metrics: [
@@ -546,19 +546,19 @@ const PROJECTS = [
   {
     id: 'remind',
     cat: 'Digital Product Design · PRD',
-    title: 'Re-Mind — Alzheimer\'s Care Platform',
+    title: 'Re-Mind. Alzheimer\'s Care Platform',
     short: 'Co-authored a full PRD for a digital health platform serving 6.5M+ Alzheimer\'s patients and 16M unpaid caregivers in the US.',
     role: 'Product Analyst & Co-Author',
     quote: { text: 'Designing for someone losing their memories means every interaction must be simple, compassionate, and reliable.', attr: 'Re-Mind PRD · design principles' },
     problem: '6.5M+ Alzheimer\'s patients and 16M unpaid caregivers in the US are drowning in fragmented tools. 40%+ of patients face navigation confusion daily; 60% of caregivers report health decline.',
     approach: '25 customer discovery interviews across patients, family caregivers, and pros. Translated into a structured PRD with MoSCoW-prioritized features, success metrics, and a 10-month roadmap.',
-    outcome: 'A defensible product brief covering 3 core flows — medication reminders, navigation safety, and a caregiver dashboard with emergency call. Projected at $734K dev cost.',
-    desc: 'Re-Mind started with a real problem: Alzheimer\'s patients and their caregivers are drowning in fragmented tools that don\'t talk to each other. Our team conducted 25 customer discovery interviews across patients, family caregivers, and professional caregivers. I helped translate those conversations into a structured PRD with prioritized features, use case flows, competitive analysis, success metrics, a 10-month development roadmap, and a $734K cost projection. We designed for people losing their memories — every interaction had to be simple, compassionate, and reliable.',
+    outcome: 'A defensible product brief covering 3 core flows, medication reminders, navigation safety, and a caregiver dashboard with emergency call. Projected at $734K dev cost.',
+    desc: 'Re-Mind started with a real problem: Alzheimer\'s patients and their caregivers are drowning in fragmented tools that don\'t talk to each other. Our team conducted 25 customer discovery interviews across patients, family caregivers, and professional caregivers. I helped translate those conversations into a structured PRD with prioritized features, use case flows, competitive analysis, success metrics, a 10-month development roadmap, and a $734K cost projection. We designed for people losing their memories, every interaction had to be simple, compassionate, and reliable.',
     bullets: [
       'Conducted and synthesized 25 customer discovery interviews across 3 user segments: patients, family caregivers, and professional caregivers.',
       'Mapped unmet needs including navigation confusion (40%+ of patients), medication management burden, and caregiver burnout (60% reported health decline).',
       'Benchmarked 7 existing solutions (Nymbl, MindMate, It\'s Done, Luminosity, etc.) and built a competitive feature matrix exposing critical gaps.',
-      'Defined 4-tier feature prioritization (MVP through V3+) using MoSCoW framework — from medication reminders to AI-driven personalized recommendations.',
+      'Defined 4-tier feature prioritization (MVP through V3+) using MoSCoW framework, from medication reminders to AI-driven personalized recommendations.',
       'Architected success metrics: medication adherence rate, D1/W1/M1/M3 retention, caregiver task completion rate, and conversion funnel tracking.',
       'Developed a 10-month roadmap from team assembly through V2 launch, aligned to World Alzheimer\'s Month for marketing leverage.',
       'Projected full development costs at $734K covering an 8-person engineering team plus cloud infrastructure.'
@@ -574,21 +574,21 @@ const PROJECTS = [
   {
     id: 'credita',
     cat: 'Product & Business Analysis',
-    title: 'Credita — P2P Credit-Building App',
-    short: 'Served as CTO for a P2P lending startup — led technical strategy, built financial models, and designed the product roadmap.',
+    title: 'Credita. P2P Credit-Building App',
+    short: 'Served as CTO for a P2P lending startup, led technical strategy, built financial models, and designed the product roadmap.',
     role: 'Co-founder & CTO',
     quote: { text: 'If banks won\'t underwrite trust, build a platform where users underwrite it for each other.', attr: 'Credita founding thesis' },
     problem: 'Banks lock students and young professionals out of affordable credit; existing P2P platforms lack trust and transparency.',
     approach: 'As CTO, owned technical strategy + financial models (5-year forecast, $3.6M Y1 → $100M Y5) + 20+ Jira user stories + UI mockups + the investor pitch.',
     outcome: 'Pitched for $5M at 10% equity, backed by a benchmark of 10+ fintech platforms and a guarantor-backed lending architecture.',
-    desc: 'Credita was born from a simple observation: traditional banks lock out students and young professionals from affordable credit, while P2P lending platforms lack trust and transparency. As CTO, I led the technical vision — from architecture decisions to sprint planning. But this was a startup, so I also rolled up my sleeves on market research, financial modeling, and investor pitching. We benchmarked 10+ fintech platforms, interviewed 15+ potential users, built TAM/SAM projections, designed UI mockups, and pitched for $5M in funding at 10% equity.',
+    desc: 'Credita was born from a simple observation: traditional banks lock out students and young professionals from affordable credit, while P2P lending platforms lack trust and transparency. As CTO, I led the technical vision, from architecture decisions to sprint planning. But this was a startup, so I also rolled up my sleeves on market research, financial modeling, and investor pitching. We benchmarked 10+ fintech platforms, interviewed 15+ potential users, built TAM/SAM projections, designed UI mockups, and pitched for $5M in funding at 10% equity.',
     bullets: [
-      'Spearheaded technical strategy as CTO — defined system architecture, selected tech stack, and led sprint planning for the development team.',
+      'Spearheaded technical strategy as CTO, defined system architecture, selected tech stack, and led sprint planning for the development team.',
       'Conducted 15+ stakeholder interviews to identify pain points: rigid lending criteria, lack of transparency, and high interest rates for underbanked users.',
       'Benchmarked 10+ fintech platforms (Upstart, Funding Circle, Prosper) and built a competitive feature matrix highlighting Credita\'s guarantor-backed lending advantage.',
       'Built Excel financial models covering TAM/SAM sizing, CAC projections, 5-year revenue forecasts ($3.6M Y1 to $100M Y5), and unit economics.',
       'Converted insights into 20+ Jira user stories with acceptance criteria, using MoSCoW prioritization for a phased 3-version roadmap.',
-      'Designed UI/UX mockups for the mobile app — splash screen, registration flow, borrower dashboard, and creditor contract views.',
+      'Designed UI/UX mockups for the mobile app, splash screen, registration flow, borrower dashboard, and creditor contract views.',
       'Co-presented investor pitch deck seeking $5M funding at 10% equity, covering revenue model (transaction fees, subscriptions, insurance premiums).'
     ],
     metrics: [
@@ -611,12 +611,12 @@ const PROJECTS = [
     outcome: 'Random Forest at 83.96% accuracy · 92.35% AUC · 79.1% F1. Paper published in a peer-reviewed journal.',
     desc: 'Heart disease kills 17.9 million people globally every year, and early prediction can save lives. For my final-year research, I worked with the Framingham Heart Study dataset (4,241 patients, 16 clinical variables) to build and compare prediction models. The key innovation was our feature selection pipeline: we used the Boruta algorithm to isolate the most predictive features and SMOTE to address a 6:1 class imbalance that would have destroyed model sensitivity. Random Forest emerged as the clear winner with 83.96% accuracy, the highest F1 score (79.1%), and best AUC (92.35%). We identified age and systolic blood pressure as the two strongest predictors. The paper was published in a peer-reviewed journal.',
     bullets: [
-      'Preprocessed the Framingham dataset — 4,241 patient records with 16 clinical features including demographics, behavioral factors, and medical history.',
+      'Preprocessed the Framingham dataset. 4,241 patient records with 16 clinical features including demographics, behavioral factors, and medical history.',
       'Pioneered Boruta algorithm usage for feature selection, systematically identifying the most statistically significant predictors while eliminating noise.',
       'Applied SMOTE to address severe class imbalance (6:1 negative-to-positive ratio), dramatically improving model sensitivity and precision.',
       'Implemented and compared 5 classification algorithms: Logistic Regression (66.69%), SVM (83.39%), Random Forest (83.96%), Naive Bayes (66.88%), and KNN (81.78%).',
       'Random Forest achieved the highest accuracy (83.96%), AUC (92.35%), and F1 score (79.1%) across all evaluation strategies.',
-      'Applied Explainable AI (XAI) techniques to visualize feature importance — age and systolic BP emerged as the top two predictors.',
+      'Applied Explainable AI (XAI) techniques to visualize feature importance, age and systolic BP emerged as the top two predictors.',
       'Co-authored the full research paper and successfully published in a peer-reviewed journal.'
     ],
     metrics: [
@@ -633,16 +633,16 @@ const PROJECTS = [
     title: 'Smart Floor Cleaner Robot',
     short: 'Designed and built a Bluetooth-controlled cleaning robot with dual scrub mechanisms and an Android control app.',
     role: 'Hardware Lead & Developer',
-    problem: 'Build a wireless floor-cleaning robot from scratch — circuits, motors, comms, and a custom Android app to control it all.',
+    problem: 'Build a wireless floor-cleaning robot from scratch, circuits, motors, comms, and a custom Android app to control it all.',
     approach: '8051 microcontroller as the brain, Bluetooth receiver for commands, dual rotating scrubs + water sprayer driven through L293D motor drivers. Programmed in Embedded C using Keil.',
-    outcome: 'Wireless cleaning robot with full Android control across multiple floor surfaces — direction, scrub speed, and water spraying all from a phone.',
-    desc: 'This was hands-on engineering at its most satisfying. We designed a wireless floor-cleaning robot from scratch — circuit design, motor control, Bluetooth communication, and a custom Android app to control it all. The robot uses an 8051 microcontroller as its brain, receives movement commands via Bluetooth from the Android app, and drives two motorized rotating cleaning scrubs plus a water sprayer.',
+    outcome: 'Wireless cleaning robot with full Android control across multiple floor surfaces, direction, scrub speed, and water spraying all from a phone.',
+    desc: 'This was hands-on engineering at its most satisfying. We designed a wireless floor-cleaning robot from scratch, circuit design, motor control, Bluetooth communication, and a custom Android app to control it all. The robot uses an 8051 microcontroller as its brain, receives movement commands via Bluetooth from the Android app, and drives two motorized rotating cleaning scrubs plus a water sprayer.',
     bullets: [
       'Designed the complete hardware architecture: 8051 microcontroller, Bluetooth receiver module, motor driver circuits, and power regulation system.',
-      'Built a custom Android application serving as the wireless transmitter — sending directional and cleaning commands over Bluetooth.',
+      'Built a custom Android application serving as the wireless transmitter, sending directional and cleaning commands over Bluetooth.',
       'Integrated dual motorized rotating cleaning scrubs with independent speed control for different floor types (tile, hardwood, concrete).',
       'Engineered a water sprayer system with a dedicated motor and spray pipes, controllable through the Android app for wet cleaning mode.',
-      'Programmed the 8051 microcontroller in Embedded C using Keil compiler — handling Bluetooth command decoding, motor control, and sprayer logic.',
+      'Programmed the 8051 microcontroller in Embedded C using Keil compiler, handling Bluetooth command decoding, motor control, and sprayer logic.',
       'Conducted comprehensive testing across multiple floor surfaces, iterating on cleaning patterns and motor speeds for optimal performance.'
     ],
     metrics: [
@@ -659,14 +659,14 @@ const PROJECTS = [
     title: 'Hand Gesture Controlled Robotic Arm',
     short: 'Developed a multi-DOF robotic arm that mirrors human hand gestures in real-time using flex sensors and accelerometers.',
     role: 'Team Lead',
-    problem: 'Build a robotic arm that moves exactly like a human hand — for industrial uses like welding paths and material handling.',
+    problem: 'Build a robotic arm that moves exactly like a human hand, for industrial uses like welding paths and material handling.',
     approach: 'Flex sensors on each glove finger + accelerometers for wrist orientation. Arduino translates signals to servo motor commands per finger, in real time.',
     outcome: '5-DOF anthropomorphic arm with intuitive gesture-to-motion mapping after iterative sensor calibration.',
-    desc: 'The goal was ambitious: build a robotic arm that moves exactly like a human hand. We used flex sensors strapped to a glove to capture finger bend angles and accelerometers for wrist orientation, then translated those signals into servo motor commands in real-time. The arm was designed for industrial applications — we simulated welding paths and material handling sequences to test precision.',
+    desc: 'The goal was ambitious: build a robotic arm that moves exactly like a human hand. We used flex sensors strapped to a glove to capture finger bend angles and accelerometers for wrist orientation, then translated those signals into servo motor commands in real-time. The arm was designed for industrial applications, we simulated welding paths and material handling sequences to test precision.',
     bullets: [
       'Designed the mechanical architecture of a multi-DOF anthropomorphic robotic arm capable of replicating human hand movements.',
       'Integrated flex sensors on each finger and accelerometers on the wrist to capture gesture data in real-time with high fidelity.',
-      'Programmed servo motor controllers to translate sensor data into precise, responsive arm movements — each finger independently actuated.',
+      'Programmed servo motor controllers to translate sensor data into precise, responsive arm movements, each finger independently actuated.',
       'Applied the system in simulated industrial contexts: welding path following and material handling pick-and-place sequences.',
       'Conducted iterative testing and calibration cycles, progressively refining gesture-to-motion accuracy through sensor threshold tuning.',
       'Achieved enhanced human-robot interaction where the arm\'s movements felt natural and responsive to the operator.'
@@ -685,14 +685,14 @@ const PROJECTS = [
     title: 'Air Gesture Recognition using CV',
     short: 'Built a webcam-based gesture recognition system using Cam-Shift, HMM, and Blob Detection for hands-free computer control.',
     role: 'Developer & Researcher',
-    problem: 'Control your computer without touching anything — using just a webcam and a coloured band on your finger.',
+    problem: 'Control your computer without touching anything, using just a webcam and a coloured band on your finger.',
     approach: 'OpenCV pipeline: capture → RGB→HSV → color threshold → dilation → blob detection → keystroke mapping. Compared Cam-Shift, HMM, and blob detection across lighting conditions.',
-    outcome: 'Real-time gesture-to-keystroke system in Python — scrolling, navigation, all with zero touch from up to 3-4 feet away.',
-    desc: 'Imagine controlling your computer without touching anything — that\'s what we built. Using just a standard laptop webcam and a red-colored band on your finger, our system tracks hand movements in real-time and translates them into keyboard commands (scrolling, navigation). The pipeline works like this: webcam captures frames, we convert RGB to HSV color space, apply color thresholding to isolate the red object, use dilation to clean up the mask, then apply a sliding window to locate the blob position.',
+    outcome: 'Real-time gesture-to-keystroke system in Python, scrolling, navigation, all with zero touch from up to 3-4 feet away.',
+    desc: 'Imagine controlling your computer without touching anything, that\'s what we built. Using just a standard laptop webcam and a red-colored band on your finger, our system tracks hand movements in real-time and translates them into keyboard commands (scrolling, navigation). The pipeline works like this: webcam captures frames, we convert RGB to HSV color space, apply color thresholding to isolate the red object, use dilation to clean up the mask, then apply a sliding window to locate the blob position.',
     bullets: [
       'Built a complete gesture recognition pipeline: webcam capture → HSV conversion → color masking → dilation → blob detection → keystroke mapping.',
       'Implemented Cam-Shift algorithm for robust real-time object tracking across varying lighting conditions and camera angles.',
-      'Applied Hidden Markov Models (HMM) for gesture sequence recognition — classifying continuous motion patterns into discrete commands.',
+      'Applied Hidden Markov Models (HMM) for gesture sequence recognition, classifying continuous motion patterns into discrete commands.',
       'Engineered Blob Detection to identify and locate the red object\'s position in each frame using contour analysis.',
       'Developed frame-to-frame comparison logic: if X(n-1) > X(n), fire right-arrow key; position delta maps to directional keyboard commands.',
       'Built the entire system in Python using OpenCV for vision processing, NumPy for computation, and Win32 API for keystroke simulation.',
@@ -710,7 +710,7 @@ const PROJECTS = [
 
 // Editorial-palette SVG diagrams (cream + black + burnt orange)
 const PROJECT_SVGS = {
-  spotify: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="220" fill="#ece6d9"/><text x="20" y="22" font-size="8" fill="#15803d" font-family="JetBrains Mono,monospace" letter-spacing="1.5">SPOTIFY · INTERNAL BRIEF</text><circle cx="50" cy="95" r="32" fill="#141312"/><path d="M36 84 Q50 79 64 86" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M38 95 Q50 90 62 96" stroke="#15803d" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M40 105 Q50 101 60 106" stroke="#15803d" stroke-width="1.5" fill="none" stroke-linecap="round"/><text x="100" y="62" font-size="22" fill="#141312" font-family="DM Serif Display,serif">Walk</text><text x="100" y="80" font-size="7" fill="#4a443c" font-family="Inter,sans-serif">Borrow the musical identity of</text><text x="100" y="90" font-size="7" fill="#4a443c" font-family="Inter,sans-serif">anyone — friend, stranger, icon.</text><line x1="20" y1="135" x2="380" y2="135" stroke="#141312" stroke-width="1"/><text x="20" y="148" font-size="6.5" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="1">5-STEP LOOP</text><text x="20" y="160" font-size="7.5" fill="#141312" font-family="DM Serif Display,serif" font-style="italic">Moment → Handshake → Experience → Memory → Social</text><line x1="20" y1="170" x2="380" y2="170" stroke="#141312" stroke-width="1"/><text x="40" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">600M</text><text x="40" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">USERS</text><text x="135" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$150M</text><text x="135" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">Y1 REVENUE</text><text x="240" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$3B+</text><text x="240" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">CEILING @ 10%</text><text x="340" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$17/mo</text><text x="340" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">WALK+</text></svg>`,
+  spotify: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="220" fill="#ece6d9"/><text x="20" y="22" font-size="8" fill="#15803d" font-family="JetBrains Mono,monospace" letter-spacing="1.5">SPOTIFY · INTERNAL BRIEF</text><circle cx="50" cy="95" r="32" fill="#141312"/><path d="M36 84 Q50 79 64 86" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M38 95 Q50 90 62 96" stroke="#15803d" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M40 105 Q50 101 60 106" stroke="#15803d" stroke-width="1.5" fill="none" stroke-linecap="round"/><text x="100" y="62" font-size="22" fill="#141312" font-family="DM Serif Display,serif">Walk</text><text x="100" y="80" font-size="7" fill="#4a443c" font-family="Inter,sans-serif">Borrow the musical identity of</text><text x="100" y="90" font-size="7" fill="#4a443c" font-family="Inter,sans-serif">anyone, friend, stranger, icon.</text><line x1="20" y1="135" x2="380" y2="135" stroke="#141312" stroke-width="1"/><text x="20" y="148" font-size="6.5" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="1">5-STEP LOOP</text><text x="20" y="160" font-size="7.5" fill="#141312" font-family="DM Serif Display,serif" font-style="italic">Moment → Handshake → Experience → Memory → Social</text><line x1="20" y1="170" x2="380" y2="170" stroke="#141312" stroke-width="1"/><text x="40" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">600M</text><text x="40" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">USERS</text><text x="135" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$150M</text><text x="135" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">Y1 REVENUE</text><text x="240" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$3B+</text><text x="240" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">CEILING @ 10%</text><text x="340" y="190" text-anchor="middle" font-size="13" fill="#15803d" font-family="DM Serif Display,serif">$17/mo</text><text x="340" y="202" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace" letter-spacing="0.5">WALK+</text></svg>`,
 
   ixl: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="220" fill="#ece6d9"/><text x="200" y="22" text-anchor="middle" font-size="8" fill="#15803d" font-family="JetBrains Mono,monospace" letter-spacing="1.5">DEFENSIVE STRATEGY · MOAT MAP</text><line x1="200" y1="40" x2="200" y2="180" stroke="#141312" stroke-width="0.5" stroke-dasharray="3 3"/><line x1="40" y1="110" x2="360" y2="110" stroke="#141312" stroke-width="0.5" stroke-dasharray="3 3"/><text x="200" y="38" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace">DEFENSIBLE ↑</text><text x="38" y="113" text-anchor="end" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace">OLD</text><text x="362" y="113" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace">NEW</text><text x="200" y="195" text-anchor="middle" font-size="6" fill="#6b6358" font-family="JetBrains Mono,monospace">COMMODITIZED ↓</text><circle cx="135" cy="68" r="22" fill="#fff" stroke="#141312" stroke-width="1.5"/><text x="135" y="66" text-anchor="middle" font-size="8" fill="#141312" font-family="DM Serif Display,serif">IXL</text><text x="135" y="78" text-anchor="middle" font-size="5.5" fill="#4a443c" font-family="Inter,sans-serif">75M users</text><circle cx="285" cy="68" r="20" fill="#15803d" stroke="#15803d" stroke-width="1.2"/><text x="285" y="66" text-anchor="middle" font-size="7.5" fill="#fff" font-family="Inter,sans-serif" font-weight="600">IXL+AI</text><text x="285" y="78" text-anchor="middle" font-size="5.5" fill="#fff" font-family="Inter,sans-serif">target</text><line x1="155" y1="68" x2="265" y2="68" stroke="#15803d" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ax1)"/><circle cx="100" cy="155" r="14" fill="#fff" stroke="#6b6358" stroke-width="1"/><text x="100" y="158" text-anchor="middle" font-size="6" fill="#4a443c" font-family="Inter,sans-serif">Q&amp;A</text><circle cx="320" cy="155" r="18" fill="#fff" stroke="#141312" stroke-width="1.2"/><text x="320" y="153" text-anchor="middle" font-size="6.5" fill="#141312" font-family="Inter,sans-serif">ChatGPT</text><text x="320" y="161" text-anchor="middle" font-size="6.5" fill="#141312" font-family="Inter,sans-serif">EDU</text><circle cx="220" cy="150" r="13" fill="#fff" stroke="#141312" stroke-width="1"/><text x="220" y="153" text-anchor="middle" font-size="6" fill="#141312" font-family="Inter,sans-serif">Khanmigo</text><rect x="20" y="200" width="360" height="14" fill="none" stroke="#141312" stroke-width="0.8"/><text x="200" y="210" text-anchor="middle" font-size="7" fill="#15803d" font-family="JetBrains Mono,monospace" letter-spacing="0.5">3 MOVES · REPOSITION · OUTCOMES DATA · EMBED AS TRUTH-SOURCE</text><defs><marker id="ax1" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#15803d" stroke-width="1.5"/></marker></defs></svg>`,
 
@@ -787,7 +787,7 @@ function openModal(i) {
   const tallGallery = p.id === 'spotify' ? '' : '';
   const gallery = p.gallery ? `
     <div class="modal-section">
-      <h4>From the brief — visual gallery</h4>
+      <h4>From the brief, visual gallery</h4>
       <div class="modal-gallery">
         ${p.gallery.map(g => `<div class="gimg" data-src="${g.src}"><img src="${g.src}" alt="${g.cap}" loading="lazy"><div class="gcap">${g.cap}</div></div>`).join('')}
       </div>
