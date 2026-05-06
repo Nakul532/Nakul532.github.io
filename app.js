@@ -105,16 +105,25 @@ $$('[data-magnetic]').forEach(el => {
 
   const items = [
     { label: 'Top of page', meta: '00', href: '#home' },
-    { label: 'The Profile · about Nakul', meta: '01', href: '#about' },
-    { label: 'The Journey · Mumbai → Boston', meta: '02', href: '#journey' },
+    { label: 'The Pitch · who Nakul is', meta: '01', href: '#about' },
+    { label: 'Featured Work · Re-Mind, Curio, Spotify', meta: '02', href: '#featured' },
     { label: 'The Lab · interactive process map', meta: '03', href: '#lab' },
-    { label: 'The Stack · skills & tools', meta: '04', href: '#skills' },
-    { label: 'The Career · work history', meta: '05', href: '#experience' },
-    { label: 'The Case Files · projects', meta: '06', href: '#projects' },
-    { label: 'Research · published ML paper', meta: '07', href: '#research' },
-    { label: 'Education', meta: '08', href: '#education' },
-    { label: 'Credentials · certifications', meta: '09', href: '#certs' },
-    { label: 'Contact · drop me a line', meta: '10', href: '#contact' },
+    { label: 'The Engine · ML, CV, robotics', meta: '04', href: '#engine' },
+    { label: 'The Toolkit · grouped skills', meta: '05', href: '#skills' },
+    { label: 'The Career · work history', meta: '06', href: '#experience' },
+    { label: 'The Journey · Mumbai → Boston', meta: '07', href: '#journey' },
+    { label: 'Background · research, education, credentials', meta: '08', href: '#background' },
+    { label: 'Contact · drop me a line', meta: '09', href: '#contact' },
+    { label: 'Re-Mind · Alzheimer\'s care platform', meta: 'PROJ', modalId: 'remind' },
+    { label: 'Curio Coffee · process optimization', meta: 'PROJ', modalId: 'curio' },
+    { label: 'Spotify Walk · borrow musical identities', meta: 'PROJ', modalId: 'spotify' },
+    { label: 'IXL · defending against AI tutors', meta: 'PROJ', modalId: 'ixl' },
+    { label: 'Walmart · customer growth engine', meta: 'PROJ', modalId: 'walmart' },
+    { label: 'Credita · P2P credit-building app', meta: 'PROJ', modalId: 'credita' },
+    { label: 'Heart Disease ML research', meta: 'PROJ', modalId: 'heart' },
+    { label: 'Air Gesture Recognition CV', meta: 'PROJ', modalId: 'gesture' },
+    { label: 'Bluetooth Floor Cleaner robot', meta: 'PROJ', modalId: 'robot' },
+    { label: 'Hand Gesture Robotic Arm', meta: 'PROJ', modalId: 'arm' },
     { label: 'Download résumé ↗', meta: 'PDF', href: RESUME_URL, ext: 1 },
     { label: 'Open LinkedIn ↗', meta: 'EXT', href: 'https://www.linkedin.com/in/shriman-nakul', ext: 1 },
     { label: 'Email Nakul ↗', meta: 'EXT', href: 'mailto:Karthikeyan.na@northeastern.edu', ext: 1 },
@@ -147,6 +156,7 @@ $$('[data-magnetic]').forEach(el => {
   function go(it) {
     if (!it) return;
     if (it.ext) window.open(it.href, '_blank', 'noopener');
+    else if (it.modalId) { close(); openModalById(it.modalId); return; }
     else window.location.hash = it.href;
     close();
   }
@@ -731,32 +741,59 @@ const PROJECT_SVGS = {
   gesture: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="220" fill="#ece6d9"/><text x="200" y="20" text-anchor="middle" font-size="8" fill="#15803d" font-family="JetBrains Mono,monospace" letter-spacing="1.5">CV PROCESSING PIPELINE</text><rect x="15" y="38" width="54" height="36" fill="#fff" stroke="#141312" stroke-width="1"/><text x="42" y="54" text-anchor="middle" font-size="7" fill="#141312" font-family="DM Serif Display,serif">Webcam</text><text x="42" y="64" text-anchor="middle" font-size="5.5" fill="#4a443c" font-family="Inter,sans-serif">Capture</text><line x1="69" y1="56" x2="83" y2="56" stroke="#141312" stroke-width="1" marker-end="url(#a4)"/><rect x="83" y="38" width="54" height="36" fill="#fff" stroke="#141312" stroke-width="1"/><text x="110" y="54" text-anchor="middle" font-size="7" fill="#141312" font-family="DM Serif Display,serif">RGB→HSV</text><text x="110" y="64" text-anchor="middle" font-size="5.5" fill="#4a443c" font-family="Inter,sans-serif">Convert</text><line x1="137" y1="56" x2="151" y2="56" stroke="#141312" stroke-width="1" marker-end="url(#a4)"/><rect x="151" y="38" width="54" height="36" fill="#15803d"/><text x="178" y="54" text-anchor="middle" font-size="7" fill="#fff" font-family="DM Serif Display,serif">Color</text><text x="178" y="64" text-anchor="middle" font-size="5.5" fill="#fff" font-family="Inter,sans-serif">Threshold</text><line x1="205" y1="56" x2="219" y2="56" stroke="#141312" stroke-width="1" marker-end="url(#a4)"/><rect x="219" y="38" width="54" height="36" fill="#fff" stroke="#141312" stroke-width="1"/><text x="246" y="54" text-anchor="middle" font-size="7" fill="#141312" font-family="DM Serif Display,serif">Dilation</text><text x="246" y="64" text-anchor="middle" font-size="5.5" fill="#4a443c" font-family="Inter,sans-serif">Cleanup</text><line x1="273" y1="56" x2="287" y2="56" stroke="#141312" stroke-width="1" marker-end="url(#a4)"/><rect x="287" y="38" width="54" height="36" fill="#fff" stroke="#141312" stroke-width="1"/><text x="314" y="54" text-anchor="middle" font-size="7" fill="#141312" font-family="DM Serif Display,serif">Blob</text><text x="314" y="64" text-anchor="middle" font-size="5.5" fill="#4a443c" font-family="Inter,sans-serif">Detect</text><line x1="341" y1="56" x2="355" y2="56" stroke="#141312" stroke-width="1" marker-end="url(#a4)"/><rect x="355" y="38" width="36" height="36" fill="#141312"/><text x="373" y="54" text-anchor="middle" font-size="7" fill="#fff" font-family="DM Serif Display,serif">Key</text><text x="373" y="64" text-anchor="middle" font-size="5.5" fill="#fff" font-family="Inter,sans-serif">Press</text><line x1="20" y1="90" x2="380" y2="90" stroke="#141312" stroke-width="1"/><rect x="30" y="100" width="140" height="80" fill="#fff" stroke="#141312" stroke-width="1"/><text x="100" y="116" text-anchor="middle" font-size="6.5" fill="#15803d" font-family="JetBrains Mono,monospace">ORIGINAL</text><rect x="55" y="125" width="30" height="20" fill="#ece6d9"/><circle cx="100" cy="155" r="14" fill="#15803d"/><text x="100" y="178" text-anchor="middle" font-size="5.5" fill="#6b6358" font-family="Inter,sans-serif">Red band detected</text><rect x="200" y="100" width="140" height="80" fill="#141312"/><text x="270" y="116" text-anchor="middle" font-size="6.5" fill="#15803d" font-family="JetBrains Mono,monospace">DILATION</text><circle cx="270" cy="155" r="14" fill="#fff"/><text x="270" y="178" text-anchor="middle" font-size="5.5" fill="#fff" font-family="Inter,sans-serif">Blob isolated</text><path d="M170 145 L200 145" stroke="#15803d" stroke-width="1.5" marker-end="url(#a4)" stroke-dasharray="3 2"/><text x="200" y="200" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#6b6358" font-style="italic">// Python + OpenCV + NumPy + Win32</text><defs><marker id="a4" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1L5 3L1 5" fill="none" stroke="#141312" stroke-width="1"/></marker></defs></svg>`
 };
 
-(function renderProjects() {
-  const grid = $('#projGrid');
+/* --- helper: lookup project index by id --- */
+function findProjectIndex(id) {
+  return PROJECTS.findIndex(p => p.id === id);
+}
+function openModalById(id) {
+  const i = findProjectIndex(id);
+  if (i >= 0) openModal(i);
+}
+
+/* --- inject SVG diagrams into Featured Work cards (data-svg-id) --- */
+(function injectSVGs() {
+  $$('[data-svg-id]').forEach(el => {
+    const id = el.dataset.svgId;
+    if (PROJECT_SVGS[id]) el.innerHTML = PROJECT_SVGS[id];
+  });
+})();
+
+/* --- click handlers: data-modal and data-modal-trigger open modal by id --- */
+document.addEventListener('click', e => {
+  const trig = e.target.closest('[data-modal-trigger]');
+  if (trig) { e.preventDefault(); e.stopPropagation(); openModalById(trig.dataset.modalTrigger); return; }
+  // fallback: clicking a featured-card itself (avoids triggering on internal buttons since they handle their own click)
+  const card = e.target.closest('[data-modal]');
+  if (card && !e.target.closest('[data-modal-trigger]') && !e.target.closest('a[href]')) {
+    openModalById(card.dataset.modal);
+  }
+});
+
+/* --- render Strategy Briefs subsection (IXL, Walmart, Credita) --- */
+(function renderStrategyBriefs() {
+  const grid = $('#briefsGrid');
   if (!grid) return;
-  grid.innerHTML = PROJECTS.map((p, i) => {
+  const briefIds = ['ixl', 'walmart', 'credita'];
+  grid.innerHTML = briefIds.map(id => {
+    const i = findProjectIndex(id);
+    if (i < 0) return '';
+    const p = PROJECTS[i];
     const num = String(i + 1).padStart(2, '0');
     return `
-    <div class="proj in-view" data-i="${i}">
+    <div class="proj in-view" data-modal="${p.id}">
       <div class="proj-img">${PROJECT_SVGS[p.id] || ''}</div>
       <div class="proj-body">
         <div class="proj-meta">
-          <span class="filed">FILE №${num}</span>
+          <span class="filed">BRIEF №${num}</span>
           <span class="sep">/</span>
           <span>${p.cat}</span>
         </div>
         <h3>${p.title}</h3>
         <p class="proj-short">${p.short}</p>
-        <span class="proj-cta">Read the file <span class="arr">→</span></span>
+        <span class="proj-cta">Read the brief <span class="arr">→</span></span>
       </div>
     </div>`;
   }).join('');
-
-  grid.addEventListener('click', e => {
-    const card = e.target.closest('.proj');
-    if (!card) return;
-    openModal(parseInt(card.dataset.i));
-  });
 
   const obs = new IntersectionObserver(entries => {
     entries.forEach((e, i) => {
@@ -766,7 +803,7 @@ const PROJECT_SVGS = {
       }
     });
   }, { threshold: 0.08 });
-  $$('#projGrid .in-view').forEach(el => obs.observe(el));
+  $$('#briefsGrid .in-view').forEach(el => obs.observe(el));
 })();
 
 /* ============================================================
